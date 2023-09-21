@@ -1,0 +1,13 @@
+prefix=/Users/macbookpro/Desktop/project/env
+exec_prefix=/Users/macbookpro/Desktop/project/env
+libdir=/Users/macbookpro/Desktop/project/env/lib
+sharedlibdir=/Users/macbookpro/Desktop/project/env/lib
+includedir=/Users/macbookpro/Desktop/project/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
